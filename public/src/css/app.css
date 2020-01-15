@@ -1,0 +1,162 @@
+
+body{
+ 
+    background-image: 
+    url("https://static.vecteezy.com/system/resources/previews/000/267/422/non_2x/vector-falling-gold-confetti-on-pink-background.jpg");
+}
+
+.thumbnail{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:400px;
+    padding:10px;
+   
+}
+.thumbnail img{
+    max-height:180px;
+
+}
+.thumbnail .description {
+    color:#606060; text-align: justify;
+    font-size: 12px;
+}
+.price{
+    font-weight: bold;
+    font-size: 20px;
+}
+.caption h4{color:rgb(0, 153, 255);
+    font-weight: bold; text-align: center;
+}
+#producttitle{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+html {
+
+  position: relative;
+  min-height: 100%;
+}
+body {
+    margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  /* Margin bottom by footer height */
+  margin-bottom: 140px;
+  overflow-y: scroll;
+
+}
+ footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  
+}
+
+@media only screen and (max-width: 767px){
+    footer {
+    
+    font-size:.8em;
+    margin-top:25px;
+    padding-top: 15px;
+    position:static;
+    left:0;
+    bottom:0;
+    width:100%;
+    }
+}
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+#delete{
+    margin-left:5px;
+}
+#addone{
+    margin-right: 5px;
+}
+.jumbotron{color: white; 
+width:100%}
+
+th, .profile{
+    text-align: center;
+   
+}
+table{
+    background-color: white;
+}
+
+
+.user-profile{
+    margin-right:5px;
+    margin-top:50px;
+    width:50%;
+    font-size:20px;
+    font-weight:bold;
+    border:2px solid #000066;
+    border-radius: 5px;
+    color: #000066;
+
+}
+select {
+    height:30px;  
+}
+#month{
+    margin-right: 20px;
+}
+#expdate{
+margin-right: 7px;
+}
+
+.img-hover-zoom--quick-zoom img {
+    transform-origin: 0 0;
+    transition: transform .25s, visibility .25s ease-in;
+  }
+  
+  /* The Transformation */
+  .img-hover-zoom--quick-zoom:hover img {
+    transform: scale(2);
+  }
+  .zoomImage{
+      margin-right:60px;
+  }
+  #h1{
+    
+        color:#000066;
+        text-shadow: 2px 2px 4px white;
+      
+  }
+  .navbartext{
+      font-size:16px;
+    color:#000066;
+    font-weight: bold;
+  }
+
+ .shopimage{
+     margin-top:-22px;
+     margin-bottom: 20px;
+ }
+ .card{
+     height:"100px";
+     
+ }
+.userprofile, #brand{
+    color:#000066;
+    font-family: 'Fjalla One', sans-serif;
+    
+
+   
+}
+.navbar-nav.mr-auto.pull-right li a {
+    color: #000066;
+   
+} 
+
+
+ 
+
